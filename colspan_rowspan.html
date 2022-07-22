@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+<body>
+    <table>
+        <!-- Título ou Legenda -->
+        <caption>Tabela com minhas séries favoritas separadas por gêneros.</caption>
+        <!-- Cabeçalho: -->
+        <thead>  
+            <tr>
+                <!-- Inserimos o atributo colspan para mesclar duas colunas -->
+                <th colspan="2">Seriados favoritos</th>
+            </tr>
+            <tr>
+                <!-- Colunas do cabeçalho alteradas de <td> para <th> -->
+                <th>Gênero</th>
+                <th>Nome</th>
+            </tr>
+        </thead>
+        <!-- Corpo -->
+        <tbody>
+            <!-- Gênero Sitcom -->
+            <tr>
+                <!-- Inserimos o atributo rowspan para mesclar três linhas -->
+                <td rowspan="3">Sitcom</td>
+                <td>himym</td>
+            </tr>
+            <tr>
+                <td>Friends</td>
+            </tr>
+            <tr>
+                <td>The Office</td>
+            </tr>
+            <!-- Gênero Terror -->
+            <tr>
+                <!-- Inserimos o atributo rowspan para mesclar duas linhas -->
+                <td rowspan="2">Terror</td>
+                <td>Stranger Things</td>
+            </tr>
+            <tr>
+                <td>Locke & Key</td>
+            </tr>
+
+            <!-- Gênero Romance -->
+            <tr>
+                <!-- Só temos uma linha, portanto não precisamos usar rowspan para mesclar -->
+                <td>Romance</td>
+                <td>Modern Love</td>
+            </tr>
+        </tbody>       
+    </table>
+</body>
+
+<!-- <style>
+    thead {
+        background: #F2668B;
+        color: white;
+    }
+    td, th {
+        border: 1px solid #000000;
+        padding: 6px 12px;
+    }
+</style> -->
+
+</html>
